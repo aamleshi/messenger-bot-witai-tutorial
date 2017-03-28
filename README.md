@@ -13,3 +13,6 @@ heroku open <br />
 4)
 heroku config:set WIT_TOKEN='your_token_here' <br />
 heroku config:set FB_PAGE_TOKEN='your_token_here'
+
+5)
+curl -X POST "https://graph.facebook.com/v2.6/me/subscribed_apps?access_token=<PAGE_ACCESS_TOKEN>"
